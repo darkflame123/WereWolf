@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 jobs:
   build:
     
@@ -11,8 +11,6 @@ jobs:
 
       - checkout
 
-      
-      - run: mvn dependency:go-offline
       
       
       - run: mvn clean package
